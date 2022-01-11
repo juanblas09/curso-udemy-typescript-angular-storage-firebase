@@ -3,9 +3,10 @@ class Alumno {
     private apellido: string;
     private peso: number;
 
-    constructor(nombre:string, apellido:string, edad: number) {
+    constructor(nombre:string, apellido:string, peso: number) {
         this.nombre = nombre;
         this.apellido = apellido;
+        this.peso = peso;
         this.saludar();
     }
 
