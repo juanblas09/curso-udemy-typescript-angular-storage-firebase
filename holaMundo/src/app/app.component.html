@@ -1,0 +1,27 @@
+<!--<app-titulos></app-titulos>
+{{ nombre }} <br>
+{{ alumno.nombre }} {{ alumno.apellido }}
+<br>
+
+<img [src]="img" width="120">
+
+<br>
+
+<input type="text" [(ngModel)]="value">
+
+<br>
+
+{{value}}-->
+<label for="">
+  Correo
+  <input type="text" [(ngModel)]="email">
+</label>
+
+<label for="">
+  Password
+  <input type="password" [(ngModel)]="password">
+</label>
+
+<button (click)="ingresar()">Iniciar</button>
+
+<router-outlet></router-outlet>
